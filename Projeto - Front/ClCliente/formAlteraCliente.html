@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alterar Cliente</title>
+    <link rel="stylesheet" href="../CSS/estilo-edita.css">
+</head>
+<?php
+    $id = $_POST['id'];
+    $nom = $_POST['nome'];
+    $cp = $_POST['cpf'];
+    $idad = $_POST['idade'];
+?>
+
+<body>
+    <div class="Titulo">
+        <h1>Editar Cliente</h1>
+    </div>
+    <div class="container">
+        <div class="box">
+
+            <form action="alterarCliente.php" method="post" class="formLogin">
+
+                <input type="hidden" name="id" id="idc" value="<?= $id ?>">
+
+                <label for="nome">Nome</label>
+                <input type="text" name="nom" id="Nome" value="<?= $nom ?>"><br>
+
+                <label for="cpf"> CPF </label>
+                <input type="text" name="cp" id="cpf" value="<?= $cp ?>"><br>
+
+                <label for="idade">Idade</label>
+                <input type="text" name="idad" id="idade" value="<?= $idad ?>"><br>
+
+                <input class="btn" type="submit" Value="Salvar">
+            </form>
+            <div class="botoes">
+                <form action="../Menu.php" class="formBotao">
+                    <input type="submit" Value="Menu" class="btn">
+                </form>
+                <form action="ListaCliente.php" class="formBotao">
+                    <input type="submit" Value="Lista" class="btn">
+                </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

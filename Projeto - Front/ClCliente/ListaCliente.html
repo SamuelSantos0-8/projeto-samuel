@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lista de Clientes</title>
+    <link rel="stylesheet" href="../CSS/estilo-lista.css">
+    
+</head>
+
+<body>
+    <div class="Titulo">
+        <h1>Listagem de Clientes</h1>
+    </div>
+
+    <div class="container">
+        <div class="box">
+            <table border="1" id="tabela">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nome</th>
+                    <th>idade</th>
+                    <th>CPF</th>
+                    <th>Opções</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+            </table>
+            <form action="../Menu.php" class="formBotao">
+                <input type="submit" Value="Voltar" class="btn">
+            </form>
+            <form class="cadastra" >
+                <label for="nome">Nome</label>
+                <input type="text" name="nome" id="Nome"><br>
+            
+                <label for="cpf">CPF</label>
+                <input type="text" name="cpf" id="cpf"><br>
+            
+                <label for="idade">Idade</label>
+                <input type="text" name="idade" id="idade"><br>
+            
+                <button>Salvar</button>
+            
+            </form>
+        </div>
+    </div>
+</body>
+
+<script src="cliente.js"></script>
+</html>

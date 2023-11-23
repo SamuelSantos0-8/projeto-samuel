@@ -1,0 +1,157 @@
+/*
+paleta
+
+#070705
+#3e4b51
+#6f737e
+#89a09a
+#c1c0ae
+
+*/
+
+* {
+    margin: 0px;
+    padding: 0px;
+ 
+    }
+
+body{
+    background-color: #6C7A89 ; 
+    border: 0px solid;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+}
+
+.formLogin{
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 7px;
+    padding: 40px;
+    margin-top: 10px;
+    box-shadow: 10px 10px 40px rgba(0, 0, 0, 0.4);
+    gap: 5px
+}
+.formLogin input:focus {
+    border: 1px solid #6C7A89;
+}
+.areaLogin img {
+    width: 420px;
+}
+h1{
+    
+    text-align: center;
+}
+.formLogin h1 {
+    padding: 0;
+    margin: 0px;
+    font-weight: 500;
+    font-size: 2.3em;
+ 
+}
+.formLogin label {
+    font-size: 14px;
+    font-weight: 600;
+}
+.botao a:hover{
+    background-color: #ffffff;
+    color: #000000;
+}
+.botao a{
+    height: fit-content;
+    margin-left: 10px;
+    margin: 10px;
+    text-align: center;
+    padding: 4px;
+    border-radius: 10px;
+    background-color: #c1c0ae;
+    color: #070705;
+    border: 0.1px solid;
+    text-decoration: none;
+
+}
+.formLogin input {
+    padding: 15px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+    margin-top: 5px;
+    border-radius: 4px;
+    transition: all linear 160ms;
+    outline: none;
+}
+
+.botao{
+    
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    margin-bottom: 10px;
+    width: 100vw;
+    height: 100vh;
+    background: #6C7A89;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    }
+.box {
+    
+    padding: 10px;
+    border-radius: 10px;
+    border-top: 3px solid;
+    border-bottom: 3px solid; 
+    background: #fff;
+}
+
+.corpo{
+    padding: 10px;
+
+}
+#imagecagada {
+    padding: 0px; 
+    width: 100px;
+}
+.Titulo {
+    background-color: white;
+    justify-content: center;
+    padding: 10px;
+    align-items: center;
+    display: flex;
+    border-radius: 10px;
+    height: fit-content;
+    width: 400px;
+    margin: auto;
+    margin-top: 100px;
+    text-align: center;
+    color: #dadada;
+    background-color: white;
+
+}
+
+
+.btn {
+    background-color: #545454;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    border: none !important;
+    transition: all linear 160ms;
+    cursor: pointer;
+    margin: 0 !important;
+
+}
+
+.btn:hover {
+    transform: scale(1.05);
+    background-color: #c0c0c0;
+
+}
